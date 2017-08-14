@@ -14,7 +14,7 @@
     "moment": "^2.9.0",
     "@quantlab/fullcalendar": "~3.4.0"
   },
-  "version": "1.6.2",
+  "version": "1.6.3",
   "releaseDate": "2017-08-02",
   "devDependencies": {
     "coffee-script": "^1.9.3",

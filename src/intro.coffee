@@ -6,13 +6,13 @@ Docs & License: <%= homepage %>
 
 `(function(factory) {
 	if (typeof define === 'function' && define.amd) {
-		define([ 'jquery', 'moment', 'fullcalendar' ], factory);
+		define([ 'jquery', 'moment', '@quantlab/fullcalendar' ], factory);
 	}
 	else if (typeof exports === 'object') { // Node/CommonJS
 		module.exports = factory(
 			require('jquery'),
 			require('moment'),
-			require('fullcalendar')
+			require('@quantlab/fullcalendar')
 		);
 	}
 	else {
